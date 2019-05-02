@@ -1,0 +1,296 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	color: #6b7381;
+	background: #f2f2f2;
+	font-size: 14px;
+	line-height: 1.42857143;
+	-webkit-font-smoothing: antialiased
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+.grid-style, .circle-style{
+	line-height: 1.2;
+}
+
+.grid a{
+	outline: none;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container-fluid{
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.clearfix::after, .row::after, .cs-row::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+
+
+.grid{
+	list-style: none;
+	padding: 30px 0;
+}
+.grid::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.grid > li{
+	float: left;
+	width: 25%;
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+.grid-2-col > li{
+	width: 50%;
+}
+.grid-3-col > li{
+	width: 33.33%;
+}
+.grid-4-col > li{
+	width: 25%;
+}
+.grid-5-col > li{
+	width: 20%;
+}
+.awsm-grid-holder{
+	overflow: hidden;
+}
+.grid figure{
+	position: relative;
+	margin: 0;
+}
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+.grid figcaption{
+	/*position: absolute;
+	left: 0;
+	top: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;*/
+}
+.grid h3{
+	margin: 0 0 3px;
+	padding: 0;
+	font-weight: 300;
+	font-size: 25px;
+}
+.awsm-social-icons{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin: 0 -5px;
+}
+.awsm-social-icons li{
+	display: inline-block;
+	padding: 0 5px;
+}
+.awsm-social-icons a{
+	display: block;
+	-webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+.awsm-social-icons a:hover{
+	-moz-transform: translateY(-4px);
+	-webkit-transform: translateY(-4px);
+	transform: translateY(-4px);
+}
+.awsm-contact-details {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.awsm-contact-details li {
+	padding: 10px 0;
+	border-bottom: 1px dotted rgba(35, 35, 35, 0.2);
+}
+
+.awsm-contact-details span {
+	min-width: 100px;
+	margin-right: 6px;
+}
+figcaption p{
+	font-size: 14px;
+}
+
+.awsm-personal-info{
+    position: relative;
+    margin-bottom: 15px;
+}
+.awsm-personal-info span{
+	text-transform: uppercase;
+	font-size: 0.815em;
+}
+.awsm-contact-info p{
+    margin: 0 0 15px;
+}
+
+@media (max-width:1230px){
+	.grid-5-col > li{
+		width: 25%;
+	}
+}
+@media (max-width:1024px){
+	.grid > li{
+		width: 33.333%;
+	}
+	.grid-2-col > li{
+		width: 50%;
+	}
+}
+
+@media (max-width:992px){
+	.grid > li{
+		width: 50%;
+	}
+}
+
+@media (max-width:678px){
+	.grid > li{
+		width: 100%;
+	}
+}
+
+
+/*------------- Style-01-----------*/
+.circle-style.style-1 figure{
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.circle-style.style-1 .awsm-grid-holder{
+	overflow: visible;
+}
+.circle-style.style-1 figure::before{
+	content: "";
+	background: rgba(0,0,0,0.75);
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	opacity: 0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	transform: scale(0.6);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.2s;
+    transition: transform 0.4s, opacity 0.2s;
+    z-index: 1;
+}
+.circle-style.style-1 figure img {
+    -webkit-transition: -webkit-transform 0.8s;
+    -moz-transition: -moz-transform 0.8s;
+    transition: transform 0.8s;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.circle-style.style-1 figcaption {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    position: absolute;
+    border-radius: 50%;
+	-webkit-border-radius: 50%;
+    padding: 25px;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-transform: translateY(100%) translateY(-90px);
+	-webkit-transform: translateY(100%) translateY(-90px);
+	-o-transform: translateY(100%) translateY(-90px);
+	-ms-transform: translateY(100%) translateY(-90px);
+    transform: translateY(100%) translateY(-90px);
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+    text-align: center;
+    z-index: 2;
+}
+.circle-style.style-1 figcaption a{
+	color: #fff;
+}
+.circle-style.style-1 figcaption p{
+	font-size: 14px;
+}
+.circle-style.style-1 .awsm-contact-info{
+	-webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s 0.2s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s 0.2s;
+    transition: transform 0.4s, opacity 0.4s 0.2s;
+    opacity: 0;
+    visibility: hidden;
+}
+.circle-style.style-1 figure:hover::before,
+.circle-style.style-1 figure.cs-hover::before{
+	opacity: 1;
+	transform: scale(1);
+}
+.circle-style.style-1 figure:hover img, .circle-style.style-1 figure.cs-hover img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+ .circle-style.style-1 figure:hover figcaption,
+.circle-style.style-1 figure.cs-hover figcaption {
+    -webkit-transform: translateY(0px) translateY(0px);
+    -moz-transform: translateY(0px) translateY(0px);
+    -ms-transform: translateY(0px) translateY(0px);
+    transform: translateY(0px) translateY(0px);
+}
+ .circle-style.style-1 figure:hover .awsm-contact-info,
+.circle-style.style-1 figure.cs-hover .awsm-contact-info {
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	opacity: 1;
+    visibility: visible;
+}
+.circle-style.style-1 .awsm-grid-holder:hover figcaption {
+    transform: translateY(100%) translateY(-100%);
+}
+.circle-style.style-1 .awsm-grid-holder:hover figcaption .awsm-contact-info{
+	visibility: visible;
+}
+
+
+

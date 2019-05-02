@@ -1,0 +1,48 @@
+.loginIcon {
+  background-color: #46a1ba;
+  font-family: Arial Rounded MT Bold;
+  text-decoration: none;
+  cursor: pointer;
+  border-color: #46a1ba;
+  color: #f1f3f3;
+  border-radius: 0.2em;
+  position: relative;
+  z-index: 4;
+  top: 12px;
+  left: 12px;
+}
+
+.iconbuttonBackground {
+  position: relative;
+  top: -63px;
+  left: 21em;
+  background-color: #46a1ba;
+  height: 50px;
+  width: 50px;
+  z-index: 3;
+  border-radius: 0.5em;
+}
+
+.loginButton {
+  background-color: #46a1bb;
+  color: #f1f3f3;
+  font-family: Arial Rounded MT Bold;
+  text-decoration: none;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 0.3em;
+  border-color: #46a1bb;
+  position: relative;
+  width: 35%;
+  padding: 6px;
+  top: -1px !important;
+  z-index: 4;
+}
+
+.loginButton:focus {
+  background-color: #46a1bb;
+}
+
+.loginButton:hover {
+  background-color: #46a1bb;
+}

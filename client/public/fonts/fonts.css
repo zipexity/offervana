@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "VAGRounded Bold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./vagrounded/VAGRounded-Black.otf");
+}
+
+@font-face {
+  font-family: "VAGRounded";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./vagrounded/VAGRoundedStd-Thin.otf");
+}

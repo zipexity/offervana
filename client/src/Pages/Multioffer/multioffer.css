@@ -1,0 +1,344 @@
+@media (min-width: 320px) and (max-width: 480px) {
+}
+@media (min-width: 481px) and (max-width: 575px) {
+}
+@media (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 960px) and (max-width: 999px) {
+  .checkMarketCompare {
+    right: 3px !important;
+  }
+  .compareHome {
+    left: 15px !important;
+    font-size: 15px !important;
+  }
+  .homesurveyDiv {
+    right: 26px !important;
+  }
+  .marketTrends {
+    right: 22px !important;
+  }
+  .marketProj {
+    right: 3px !important;
+  }
+  .sellerSavings {
+    right: 32px !important;
+  }
+  .proj-cash-market {
+    font-size: 17px !important;
+  }
+
+  .indDiv {
+    right: 10px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 27px !important;
+  }
+  .checkIbuyCompare {
+    right: 4.5px !important;
+  }
+  .ibuyhomecompare {
+    left: 12px !important;
+    font-size: 16px !important;
+  }
+  .ibuyprojcash {
+    font-size: 16px !important;
+  }
+  .reviewInstantOffers {
+    right: 3px !important;
+  }
+  .checkibuyCashClose {
+    right: 2px !important;
+  }
+
+  .projSalesTime {
+    font-size: 15px !important;
+  }
+
+  .ibuyDiv {
+    width: 120% !important;
+    right: 33px !important;
+  }
+  .marketbuyDiv {
+    width: 120% !important;
+    right: 0px !important;
+  }
+
+  .you-pick-close {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1057px) {
+  .checkMarketCompare {
+    right: 3px !important;
+  }
+  .compareHome {
+    left: 15px !important;
+    font-size: 16px !important;
+  }
+  .homesurveyDiv {
+    right: 30px !important;
+  }
+  .marketTrends {
+    right: 26px !important;
+  }
+  .marketProj {
+    right: 3px !important;
+  }
+  .sellerSavings {
+    right: 40px !important;
+  }
+  .proj-cash-market {
+    font-size: 18px !important;
+  }
+
+  .indDiv {
+    right: 10px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 27px !important;
+  }
+  .checkIbuyCompare {
+    left: 1px !important;
+  }
+  .ibuyhomecompare {
+    left: 12px !important;
+    font-size: 16px !important;
+  }
+  .ibuyprojcash {
+    font-size: 16px !important;
+  }
+  .reviewInstantOffers {
+    right: 2px !important;
+  }
+  .checkibuyCashClose {
+    left: 0px !important;
+  }
+
+  .projSalesTime {
+    font-size: 16px !important;
+  }
+
+  .ibuyDiv {
+    width: 120% !important;
+    right: 33px !important;
+  }
+  .marketbuyDiv {
+    width: 120% !important;
+    right: 0px !important;
+  }
+
+  .you-pick-close {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1058px) and (max-width: 1099px) {
+  .checkMarketCompare {
+    right: 3px !important;
+  }
+  .compareHome {
+    left: 10px !important;
+    font-size: 16px !important;
+  }
+  .homesurveyDiv {
+    right: 39px !important;
+  }
+  .marketTrends {
+    right: 35px !important;
+  }
+  .marketProj {
+    right: 4px !important;
+  }
+  .sellerSavings {
+    right: 45px !important;
+  }
+  .proj-cash-market {
+    font-size: 18px !important;
+  }
+
+  .indDiv {
+    right: 20px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 37px !important;
+  }
+  .checkIbuyCompare {
+    right: 2px !important;
+  }
+  .ibuyhomecompare {
+    left: 12px !important;
+  }
+  .reviewInstantOffers {
+    right: 12px !important;
+  }
+  .checkibuyCashClose {
+    right: 0px !important;
+  }
+
+  .projSalesTime {
+    font-size: 16px !important;
+  }
+
+  .ibuyDiv {
+    width: 117% !important;
+    right: 33px !important;
+  }
+  .marketbuyDiv {
+    width: 117% !important;
+    right: 2px !important;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1149px) {
+  .checkMarketCompare {
+    right: 6px !important;
+  }
+  .compareHome {
+    left: 5px !important;
+    font-size: 16px !important;
+  }
+  .homesurveyDiv {
+    right: 45px !important;
+  }
+  .marketTrends {
+    right: 42px !important;
+  }
+  .marketProj {
+    right: 9px !important;
+  }
+  .sellerSavings {
+    right: 50px !important;
+  }
+  .proj-cash-market {
+    font-size: 18px !important;
+  }
+
+  .indDiv {
+    right: 20px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 38px !important;
+  }
+  .checkIbuyCompare {
+    left: 1px !important;
+  }
+  .reviewInstantOffers {
+    right: 13px !important;
+  }
+  .checkibuyCashClose {
+    right: 1px !important;
+  }
+
+  .projSalesTime {
+    font-size: 17px !important;
+  }
+
+  .ibuyDiv {
+    width: 117% !important;
+    right: 33px !important;
+  }
+  .marketbuyDiv {
+    width: 117% !important;
+    right: 2px !important;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1199px) {
+  .checkMarketCompare {
+    right: 3px !important;
+  }
+  .compareHome {
+    left: 15px !important;
+  }
+  .homesurveyDiv {
+    right: 49px !important;
+  }
+  .marketTrends {
+    right: 45px !important;
+  }
+  .marketProj {
+    right: 14px !important;
+  }
+  .sellerSavings {
+    right: 56px !important;
+  }
+  .proj-cash-market {
+    font-size: 18px !important;
+  }
+
+  .indDiv {
+    right: 25px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 42px !important;
+  }
+  .checkIbuyCompare {
+    left: 2px !important;
+  }
+  .reviewInstantOffers {
+    right: 18px !important;
+  }
+  .checkibuyCashClose {
+    right: 6px !important;
+  }
+
+  .projSalesTime {
+    font-size: 17px !important;
+  }
+
+  .ibuyDiv {
+    width: 115% !important;
+    right: 30px !important;
+  }
+  .marketbuyDiv {
+    width: 115% !important;
+    right: 0px !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .checkMarketCompare {
+    right: 5px !important;
+  }
+  .homesurveyDiv {
+    right: 55px !important;
+  }
+  .marketTrends {
+    right: 52px !important;
+  }
+  .marketProj {
+    right: 21px !important;
+  }
+  .sellerSavings {
+    right: 62px !important;
+  }
+
+  .indDiv {
+    right: 35px !important;
+  }
+  .homesurveyiBuyDiv {
+    right: 53px !important;
+  }
+  .checkIbuyCompare {
+    right: 9px !important;
+  }
+  .reviewInstantOffers {
+    right: 28px !important;
+  }
+  .checkibuyCashClose {
+    right: 16px !important;
+  }
+
+  .projSalesTime {
+    font-size: 18px !important;
+  }
+
+  .ibuyDiv {
+    width: 115% !important;
+    right: 30px !important;
+  }
+  .marketbuyDiv {
+    width: 115% !important;
+    right: 0px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+}

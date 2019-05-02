@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/fonts/fonts.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKdsVgd6BTixezNIdvuRB84M7SA4tC9Bg&libraries=places"></script>
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <div class="loader"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $(".searchbar").css("opacity", 0);
+      // $(".searchbar").css("opacity", 0);
+      // if (
+      //   $(this)
+      //     .closest(".root")
+      //     .children(".aboutUs")
+      // ) {
+      //   $(".searchbar").css("opacity", 0);
+      // }
+
+      // $(window).scroll(function() {
+      //   var scrollTop = $(this).scrollTop();
+      //   if (scrollTop >= 3245) $(".searchbar").css("opacity", 0);
+      //   else if (scrollTop >= 820) $(".searchbar").css("opacity", 1);
+      //   else $(".searchbar").css("opacity", 0);
+      // });
+
+      function isVisible(row, container) {
+        var elementTop = $(row).offset().top,
+          elementHeight = $(row).height(),
+          containerTop = container.scrollTop(),
+          containerHeight = container.height();
+
+        return (
+          elementTop - containerTop + elementHeight > 0 &&
+          elementTop - containerTop < containerHeight
+        );
+      }
+      $(window).scroll(function() {
+        $(".homePage div").each(function() {
+          if (isVisible($(this), $(window))) {
+            if ($(this).attr("class") == "footer-outer") {
+              $(".searchbar").css("opacity", 0);
+            }
+            if ($(this).attr("class") == "top-homePage") {
+              $(".searchbar").css("opacity", 0);
+            }
+            if ($(this).attr("class") == "mid-homePage") {
+              $(".searchbar").css("opacity", 1);
+            }
+
+            //console.log($(this).attr('class')+" is visible");
+          }
+        });
+      });
+
+      $(window).scroll(function() {
+        $(".aboutUs div").each(function() {
+          if (isVisible($(this), $(window))) {
+            $(this).attr("class");
+            if ($(this).attr("class") == "footer") {
+              $(".searchbar").css("opacity", 0);
+            }
+            if ($(this).attr("class") == "inner-about-us") {
+              $(".searchbar").css("opacity", 1);
+            }
+          }
+        });
+      });
+    });
+  </script>
+</html>
